@@ -1,0 +1,44 @@
+shell:
+ program: /bin/zsh
+ args:
+ - --login
+ - -l
+ - -c
+ - "tmux attach || tmux"
+
+background_opacity: 1
+
+custom_cursor_colors: true
+
+colors:
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#d8d8d8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#000000'
+    cursor: '#ffffff'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#FF86a1'
+    green:   '#0ad880'
+    yellow:  '#f7ca88'
+    blue:    '#0aa8f0'
+    magenta: '#ba8baf'
+    cyan:    '#add8e6'
+    white:   '#ffffff'
+    orange:  '#f7ca88'
+  # Bright colors
+  bright:
+    black:   '#000000'
+    red:     '#ab4642'
+    green:   '#a1b56c'
+    yellow:  '#f7ca88'
+    blue:    '#3FE0D0'
+    magenta: '#ba8baf'
+    cyan:    '#86c1b9'
+    white:   '#f8f8f8'
