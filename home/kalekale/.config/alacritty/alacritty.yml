@@ -13,7 +13,7 @@ custom_cursor_colors: true
 colors:
   # Default colors
   primary:
-    background: '#000000'
+    background: '#0f0f0f'
     foreground: '#d8d8d8'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
@@ -25,8 +25,8 @@ colors:
   normal:
     black:   '#000000'
     red:     '#FF86a1'
-    green:   '#0ad880'
-    yellow:  '#f7ca88'
+    green:   '#ADFF2F'
+    yellow:  '#FFFF66'
     blue:    '#0aa8f0'
     magenta: '#ba8baf'
     cyan:    '#add8e6'
